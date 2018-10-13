@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #FFA300;
+    border-color: black;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+#myNavbar{
+}
+#navbar_link{
+    font-style: inherit;
+    color: #1C1D21;
+}
+.jumbotron{
+    height: 450px;
+    background-image: url("../Media/Images/homebanner.jpg");
+}
+#homebannerimg{
+    height: 450px;
+}
+
+footer{
+    background-color: #FFA300;
+}

@@ -1,0 +1,103 @@
+
+.navbar{
+    background-color: #FFA300;
+    border-color: black;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+#myNavbar{
+}
+.jumbotron{
+    height: 450px;
+    background-image: url("../Media/Images/homebanner.jpg");
+}
+#homebannerimg{
+    height: 450px;
+}
+#navbar_link{
+    font-style: inherit;
+    color: #1C1D21;
+}
+.contact {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.contact i {
+    font-size: 36px;
+    color: #6195FF;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-form .input {
+    margin-bottom: 20px;
+}
+
+
+.contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
+    width: calc(50% - 10px);
+}
+
+.contact-form .input:nth-child(2) {
+    margin-left: 15px;
+}
+
+#footer {
+    position: relative;
+    background-color: #FF8C00;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo>a>img {
+    max-height: 80px;
+}
+#logo1{
+
+    width: 300px;
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-follow {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-follow li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-follow li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: black;
+    color:#FFF;
+}
+
+.footer-copyright p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+}
